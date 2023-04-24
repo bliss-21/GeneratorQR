@@ -28,6 +28,9 @@ app.MapGet("/", async (HttpContext context) =>
     await context.Response.WriteAsync(htmlContent);
 });
 
+/// <summary>
+/// endpoint genera un QR en base 64 desde un texto que recibe
+/// </summary>
 app.MapGet("/qr", (string text) => 
 {
     var qrGenerator = new QRCodeGenerator();
