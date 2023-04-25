@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorQR", "GeneratorQR\GeneratorQR.csproj", "{0A1B3D51-4251-4841-80C8-A7609A55A2AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorQR", "GeneratorQR\GeneratorQR.csproj", "{0A1B3D51-4251-4841-80C8-A7609A55A2AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorQR.Test", "GeneratorQR.Test\GeneratorQR.Test.csproj", "{EF1E5B6E-8EF5-4F49-BD23-DADD4FD35A6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0A1B3D51-4251-4841-80C8-A7609A55A2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A1B3D51-4251-4841-80C8-A7609A55A2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A1B3D51-4251-4841-80C8-A7609A55A2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1E5B6E-8EF5-4F49-BD23-DADD4FD35A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1E5B6E-8EF5-4F49-BD23-DADD4FD35A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1E5B6E-8EF5-4F49-BD23-DADD4FD35A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1E5B6E-8EF5-4F49-BD23-DADD4FD35A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
